@@ -1,0 +1,102 @@
+/* Global Styles */
+*, *:before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans SC', sans-serif;
+*/
+:root {
+  --dkblue:#101B37;
+  --neonpink:#E41376;
+  --neonblue: #01C8EE;
+
+}
+
+.cfta {
+  font-family: 'Comfortaa', cursive;
+}
+
+.nsjp {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nssc {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  background-color: black;
+}
+
+div {
+  border-radius: 15px;
+  line-height: 40px;
+  height: 100px auto;
+
+  /* border: 2px dashed #f69c55; */
+}
+
+h3 {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.purple {
+  height: 100px;
+  background-color: purple;
+  background-image:
+    linear-gradient(
+      purple, #d506f0
+    );
+}
+
+.green {
+  height: 100px;
+  background-color: green;
+  background-image:
+    linear-gradient(
+      green, #159111
+    );
+}
+
+.blue {
+  height: 100px;
+  background-color: blue;
+  background-image:
+    linear-gradient(
+      blue, #361b96
+    );
+}
+
+.parent {
+  position: relative;
+  width: 50%;
+  height: 160px;
+  margin: 10px;
+}
+
+.another {
+  position: relative;
+  width: 50%;
+  margin: 10px;
+}
+
+.child {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  margin: 10px;
+  height: 100px;
+}
